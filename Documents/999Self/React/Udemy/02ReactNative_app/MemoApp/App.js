@@ -20,10 +20,10 @@ firebase.initializeApp(config);
 
 const App = StackNavigator({
   Login:      { screen: LoginScreen },
+  Signup:     { screen: SignupScreen },
   Home:       { screen: MemoListScreen },
   MemoDetail: { screen: MemoDetailScreen },
   MemoEdit:   { screen: MemoEditScreen },
-  Signup:     { screen: SignupScreen },
 }, {
   navigationOptions: {
     headerTitle: 'Memot',
